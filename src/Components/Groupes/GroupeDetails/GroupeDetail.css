@@ -1,0 +1,115 @@
+.chat-bot{
+    height: 100vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+.chat-groupe{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #000000;
+    border-bottom: 1px solid #c74a18;
+}
+.chat-groupe img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+.chat-groupe img:first-child{
+    width: 38px;
+    aspect-ratio: 1/1;
+}
+
+.chat-groupe p{
+    flex: 1;
+    font-weight: 500px;
+    font-size: 20px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.chat-input{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 15px;
+    background: #FF5C1A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+}
+
+.chat-input img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.chat-input label{
+    display: flex;
+}
+
+.chat-input input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 15px ;
+}
+
+.chat-msg{
+    height: calc(100%-70px);
+    padding-bottom: 50%;
+    overflow-y: scroll;
+    display: flex;
+    color: #FFF;
+    flex-direction: column-reverse;
+}
+
+.s-msg div img, .r-msg div img{
+    width: 50px;
+    aspect-ratio: 1/1;
+    /* border-radius: 50px; */
+}
+
+.s-msg, .r-msg{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 5px;
+    padding: 0px 15px;
+}
+
+.r-msg{
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.msg{
+    color: #000000;
+    background-color: #FFF;
+    padding: 8px;
+    max-width: 200px;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 8px 8px 0px 8px;
+    margin-bottom: 30px;
+}
+
+.r-msg .msg{
+    border-radius: 8px 8px 0px 8px;
+}
+
+.s-msg div, .r-msg div{
+    text-align: center;
+    font-size: 9px;
+}
+
+img.dot{
+    width: 15px;
+}

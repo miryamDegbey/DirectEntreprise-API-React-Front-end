@@ -1,0 +1,37 @@
+.form_conataint{
+    padding: 20px;
+    border: solid #FFF;
+    width: 100%;
+    height: fit-content;
+    backdrop-filter: blur(30px);
+    background-color: rgb(7, 7, 7);
+    border-radius: 30px;
+    color: #000000;
+}
+
+.form_conataint form .les_inputs {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.first_input, .seconde_input{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.submit{
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+.submit h1{
+    font-size: 30px;
+    text-decoration:underline;
+}
