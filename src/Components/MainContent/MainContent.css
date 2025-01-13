@@ -1,8 +1,6 @@
 
 .main-content{
-    background-image: url(../../assets/Logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    
     position: absolute;
     flex: 1;
     justify-content: center;
